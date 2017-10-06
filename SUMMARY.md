@@ -30,6 +30,7 @@
         * [CSS选择器](pa-chong/cssxuan-ze-qi.md)
       * 修改文档树
     * requests
+    * [selenium](pa-chong/selenium.md)
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
