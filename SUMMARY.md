@@ -33,6 +33,12 @@
     * [selenium](pa-chong/selenium.md)
       * 定位
         * 通过id
+        * 通过class
+        * 通过name
+        * 通过XPath
+        * 通过链接文本定位链接
+        * 通过标签名
+        * [使用css选择器](pa-chong/selenium/shi-yong-css-xuan-ze-qi.md)
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
