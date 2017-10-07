@@ -39,7 +39,7 @@
         * 通过链接文本定位链接
         * 通过标签名
         * [使用css选择器](pa-chong/selenium/shi-yong-css-xuan-ze-qi.md)
-      * 等待
+      * [等待](pa-chong/selenium/deng-dai.md)
         * 显示等待
         * 隐式等待
       * 页面元素
