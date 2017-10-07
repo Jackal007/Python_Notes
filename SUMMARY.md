@@ -39,6 +39,12 @@
         * 通过链接文本定位链接
         * 通过标签名
         * [使用css选择器](pa-chong/selenium/shi-yong-css-xuan-ze-qi.md)
+      * 等待
+        * 显示等待
+        * 隐式等待
+      * 页面元素
+      * WebDriver
+        * 异常
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
