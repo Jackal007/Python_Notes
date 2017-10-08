@@ -66,9 +66,7 @@ if __name__ == "__main__":
    `browser.get_cookie(name)` : 得到执行 cookie  
    `browser.get_cookies()` : 得到所有的 cookie
 
-   ```
-   driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’}) driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’, ‘path’ : ‘/’}) driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’, ‘path’ : ‘/’, ‘secure’:True})
-   ```
+   driver.add\_cookie\({‘name’ : ‘foo’, ‘value’ : ‘bar’}\) driver.add\_cookie\({‘name’ : ‘foo’, ‘value’ : ‘bar’, ‘path’ : ‘/’}\) driver.add\_cookie\({‘name’ : ‘foo’, ‘value’ : ‘bar’, ‘path’ : ‘/’, ‘secure’:True}\)
 
 5. `browser.delete_all_cookies()` : 删除当前会话的所有cookie  
    `browser.delete_cookie(name)` : 删除指定 cookie
@@ -76,16 +74,18 @@ if __name__ == "__main__":
 6. `browser.back()`  
     : 相当于浏览器的后退历史记录
 
-7. `browser.forward()`
+7. `browser.forward()`  
     : 相当于浏览器的前进历史记录
+
 8. `browser.execute_script(script, *args)`  
     : 同步执行 js 脚本
 
    `browser.execute_async_script(script, *args)`  
     : 异步执行 js 脚本
 
-9. `browser.get(url)`
+9. `browser.get(url)`  
     : 在当前窗口加载 url
+
 10. `browser.refresh()`
      : 刷新当前页面
 11. `browser.current_window_handle`

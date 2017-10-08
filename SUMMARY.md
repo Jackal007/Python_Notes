@@ -31,7 +31,7 @@
       * 修改文档树
     * requests
     * [selenium](pa-chong/selenium.md)
-      * [定位](pa-chong/selenium/ding-wei.md)
+      * [定位元素](pa-chong/selenium/ding-wei.md)
         * 通过id
         * 通过class
         * 通过name
@@ -39,10 +39,11 @@
         * 通过链接文本定位链接
         * 通过标签名
         * [使用css选择器](pa-chong/selenium/shi-yong-css-xuan-ze-qi.md)
+      * [对元素进行操作](pa-chong/selenium/ye-mian-yuan-su.md)
+        * [key](pa-chong/selenium/ye-mian-yuan-su/key.md)
       * [等待](pa-chong/selenium/deng-dai.md)
         * 显示等待
         * 隐式等待
-      * 页面元素
       * WebDriver
         * 异常
 * [方便的包](fang-bian-de-bao.md)
