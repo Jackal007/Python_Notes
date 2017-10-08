@@ -89,8 +89,9 @@ if __name__ == "__main__":
 10. `browser.refresh()`  
      : 刷新当前页面
 
-11. `browser.current_window_handle`
+11. `browser.current_window_handle`  
      : 当前窗口的 handle， 相当于一个指针一样的东西, 用来指向当前窗口
+
 12. `browser.window_handles`
      : 当前浏览器中的已经打开的所有窗口, 是一个 list
 13. `browser.switch_to_window(window_handle)`
