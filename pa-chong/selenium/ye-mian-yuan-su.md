@@ -45,6 +45,17 @@ actions.perform()
 | authenticate\(username, password\) | 输入用户名和密码 |
 | send\_keys\(keysToSend\) | 输入键 |
 | text | 获取弹出窗口的文本 |
+| **下拉框** | `selenium.webdriver.support.select.Select(webelement)` |
+| deselect\_all\(\) | 取消所有选择项（只对多选框有效） |
+| deselect\_by\_index\(index\) | 取消指定索引（根据页面代码里面选项的索引，而不是自己数的）项的选择 |
+| deselect\_by\_value\(value\) | 根据值取消选择 |
+| deselect\_by\_visible\_text\(text\) | 根据文本取消选择 |
+| select\_by\_index\(index\) |  |
+| select\_by\_value\(value\) |  |
+| select\_by\_visible\_text\(text\) |  |
+| all\_selected\_options | 返回所有被选中的选项 |
+| first\_selected\_option | 返回第一个被选中的选项 |
+| options | 返回所有选项 |
 | **其他** |  |
 | pause\(seconds\) | 暂停数秒 |
 | reset\_actions\(\) | Clears actions that are already stored on the remote end. |
