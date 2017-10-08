@@ -34,11 +34,17 @@ actions.perform()
 | move\_by\_offset\(xoffset, yoffset\) | 根据给定偏移移动鼠标 |
 | move\_to\_element\(to\_element\) | 把鼠标移到某个位置 |
 | move\_to\_element\_with\_offset\(to\_element, xoffset, yoffset\) | 把鼠标移动到指定元素的某个地方 |
-| **键盘操作** |  |
+| **键盘操作** | `selenium.webdriver.common.keys.Keys` |
 | key\_down\(value, element=None\) | 按住（CTRL:Keys.CONTROL、ALT:Keys.ALTER、SHIFT:Keys.SHIFT中的某一个）不放 |
 | key\_up\(value, element=None\) | 释放掉之前按着的某一个键 |
 | send\_keys\(\*keys\_to\_send\) | 输入要输入的内容 |
 | send\_keys\_to\_element\(element, \*keys\_to\_send\) | 对指定元素输入内容 |
+| **弹出窗口** | `class selenium.webdriver.common.alert.Alert(driver)` |
+| Alert\(driver\).accept\(\) | 接受 |
+| Alert\(driver\).dismiss\(\) | 拒绝 |
+| authenticate\(username, password\) | 输入用户名和密码 |
+| send\_keys\(keysToSend\) | 输入键 |
+| text | 获取弹出窗口的文本 |
 | **其他** |  |
 | pause\(seconds\) | 暂停数秒 |
 | reset\_actions\(\) | Clears actions that are already stored on the remote end. |
