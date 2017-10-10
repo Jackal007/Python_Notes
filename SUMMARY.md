@@ -88,7 +88,8 @@
     * WebDriver
       * 异常
     * exceptions
-  * scrapy
+  * [scrapy](pa-chong/scrapy.md)
+    * [安装](pa-chong/scrapy/an-zhuang.md)
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
