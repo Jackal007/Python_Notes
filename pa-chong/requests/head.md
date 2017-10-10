@@ -1,0 +1,4 @@
+#### `requests.head(url, **kwargs)`
+
+
+

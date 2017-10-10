@@ -1,0 +1,4 @@
+#### `requests.session(**kwargs)`
+
+
+

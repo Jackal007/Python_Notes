@@ -41,8 +41,37 @@
           * [string参数](pa-chong/findall/stringcan-shu.md)
           * [limit参数](pa-chong/findall/limitcan-shu.md)
           * [recursive 参数](pa-chong/findall/recursive-can-shu.md)
-      * 修改文档树
-    * requests
+        * [像调用 find\_all\(\) 一样调用tag](pa-chong/xiang-diao-yong-find-all-yi-yang-diao-yong-tag.md)
+        * [find\(\)](pa-chong/find.md)
+        * find\_parents\(\) 和 find\_parent\(\)
+        * find\_next\_siblings\(\) 合 find\_next\_sibling\(\)
+        * find\_previous\_siblings\(\) 和 find\_previous\_sibling\(\)
+        * find\_previous\_siblings\(\) 和 find\_previous\_sibling\(\)
+        * find\_all\_next\(\) 和 find\_next\(\)
+        * find\_all\_next\(\) 和 find\_next\(\)
+        * find\_all\_next\(\) 和 find\_next\(\)
+        * find\_all\_next\(\) 和 find\_next\(\)
+        * find\_all\_previous\(\) 和 find\_previous\(\)
+      * [修改文档树](pa-chong/xiu-gai-wen-dang-shu.md)
+        * 修改tag的名称和属性
+        * 修改 .string
+        * append\(\)
+        * NavigableString\(\) 和 .new\_tag\(\)
+        * insert\(\)
+        * insert\_before\(\) 和 insert\_after\(\)
+        * clear\(\)
+        * extract\(\)
+        * decompose\(\)
+        * replace\_with\(\)
+        * wrap\(\)
+        * unwrap\(\)
+    * [requests](pa-chong/requests.md)
+      * [response](pa-chong/requests/response.md)
+      * [data](pa-chong/requests/data.md)
+      * [head](pa-chong/requests/head.md)
+      * [session](pa-chong/requests/session.md)
+      * [配置](pa-chong/requests/pei-zhi.md)
+      * [exceptions](pa-chong/requests/exceptions.md)
     * [selenium](pa-chong/selenium.md)
       * [定位元素](pa-chong/selenium/ding-wei.md)
         * 通过id
@@ -59,6 +88,7 @@
         * 隐式等待
       * WebDriver
         * 异常
+      * exceptions
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
