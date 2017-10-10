@@ -28,6 +28,19 @@
           * [.next\_elements 和 .previous\_elements](pa-chong/bian-li-wen-dang-shu/xiong-di-jie-dian/nextelements-he-previouselements.md)
       * 搜索文档树
         * [CSS选择器](pa-chong/cssxuan-ze-qi.md)
+        * [过滤器](pa-chong/guo-lv-qi.md)
+          * [字符串](pa-chong/guo-lv-qi/zi-fu-chuan.md)
+          * [正则表达式](pa-chong/guo-lv-qi/zheng-ze-biao-da-shi.md)
+          * [列表](pa-chong/guo-lv-qi/lie-biao.md)
+          * [True](pa-chong/guo-lv-qi/true.md)
+          * [方法](pa-chong/guo-lv-qi/fang-fa.md)
+        * [find\_all\(\)](pa-chong/findall.md)
+          * [name参数](pa-chong/findall/namecan-shu.md)
+          * [keyword参数](pa-chong/findall/keywordcan-shu.md)
+          * [按CSS搜索](pa-chong/findall/an-css-sou-suo.md)
+          * [string参数](pa-chong/findall/stringcan-shu.md)
+          * [limit参数](pa-chong/findall/limitcan-shu.md)
+          * [recursive 参数](pa-chong/findall/recursive-can-shu.md)
       * 修改文档树
     * requests
     * [selenium](pa-chong/selenium.md)
