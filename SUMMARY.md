@@ -90,6 +90,10 @@
     * exceptions
   * [scrapy](pa-chong/scrapy.md)
     * [安装](pa-chong/scrapy/an-zhuang.md)
+    * [基本概念](pa-chong/scrapy/ji-ben-gai-nian.md)
+      * Spider
+      * Selector
+      * Items
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
