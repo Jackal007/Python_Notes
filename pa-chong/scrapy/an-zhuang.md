@@ -7,7 +7,7 @@ sudp apt-get install python-dev
 sudo apt-get install libevent-dev
 sudp apt-get install libssl-dev
 
-sudo apt-get install scrapy
+pip install scrapy
 ```
 
 
