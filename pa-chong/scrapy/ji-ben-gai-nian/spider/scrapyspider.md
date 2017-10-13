@@ -25,6 +25,10 @@ _class_`scrapy.spiders.Spider`
 * `settings`  
   要加载的配置
 
-* `logger`
-根据本Spider的名字创建的logger，可以记录log
+* `logger`  
+  根据本Spider的名字创建的logger，可以记录log
+
+##### 操作
+
+
 
