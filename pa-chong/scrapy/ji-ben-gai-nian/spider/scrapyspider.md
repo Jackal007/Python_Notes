@@ -30,5 +30,34 @@ _class_`scrapy.spiders.Spider`
 
 ##### 操作
 
+* `from_crawler(crawler, *args, **kwargs)`  
+  This is the class method used by Scrapy to create your spiders.
+
+* `start_requests()、`  
+  This method must return an iterable with the first Requests to crawl for this spider. It is called by Scrapy when the spider is opened for scraping. Scrapy calls it only once, so it is safe to implement start\_requests\(\) as a generator.  
+  The default implementation generates Request\(url, dont\_filter=True\) for each url in start\_urls.  
+  If you want to change the Requests used to start scraping a domain, this is the method to override. For example, if you need to start by logging in using a POST request, you could do:
+
+  ```
+  class MySpider(scrapy.Spider):
+    name = 'myspider'
+
+    def start_requests(self):
+        return [scrapy.FormRequest("http://www.example.com/login",
+                                   formdata={'user': 'john', 'pass': 'secret'},
+                                   callback=self.logged_in)]
+
+    def logged_in(self, response):
+        # here you would extract links to follow and return Requests for
+        # each of them, with another callback
+        pass
+  ```
+
+* `parse(response)`  
+  This is the default callback used by Scrapy to process downloaded responses, when their requests don’t specify a callback.  
+  The`parse`method is in charge of processing the response and returning scraped data and/or more URLs to follow. Other Requests callbacks have the same requirements as the[`Spider`](https://doc.scrapy.org/en/latest/topics/spiders.html#scrapy.spiders.Spider)class.  
+  This method, as well as any other Request callback, must return an iterable of[`Request`](https://doc.scrapy.org/en/latest/topics/request-response.html#scrapy.http.Request)and/or dicts or[`Item`](https://doc.scrapy.org/en/latest/topics/items.html#scrapy.item.Item)objects.  
+  Parameters:  **response**\([`Response`](https://doc.scrapy.org/en/latest/topics/request-response.html#scrapy.http.Response)\) – the response to parse
+
 
 
