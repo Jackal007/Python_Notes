@@ -91,9 +91,21 @@
   * [scrapy](pa-chong/scrapy.md)
     * [安装](pa-chong/scrapy/an-zhuang.md)
     * [基本概念](pa-chong/scrapy/ji-ben-gai-nian.md)
-      * Spider
+      * [Spider](pa-chong/scrapy/ji-ben-gai-nian/spider.md)
+        * [scrapy.Spider](pa-chong/scrapy/ji-ben-gai-nian/spider/scrapyspider.md)
       * Selector
       * Items
+      * Item Loaders
+      * Scrapy Shell
+      * Item Pipeline
+      * Feed exports
+      * Requests
+      * Responses
+      * Link Extractors
+      * Settings
+      * Exceptions
+      * Command line tool
+    * 内置服务
 * [方便的包](fang-bian-de-bao.md)
   * pywifi
 
