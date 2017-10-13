@@ -59,11 +59,11 @@ _class_`scrapy.spiders.Spider`
   This method, as well as any other Request callback, must return an iterable of[`Request`](https://doc.scrapy.org/en/latest/topics/request-response.html#scrapy.http.Request)and/or dicts or[`Item`](https://doc.scrapy.org/en/latest/topics/items.html#scrapy.item.Item)objects.  
   Parameters:  **response**\([`Response`](https://doc.scrapy.org/en/latest/topics/request-response.html#scrapy.http.Response)\) – the response to parse
 
-* `log`\(_message_\[,_level_,_component_\]\)
-Wrapper that sends a log message through the Spider’s[`logger`](https://doc.scrapy.org/en/latest/topics/spiders.html#scrapy.spiders.Spider.logger), kept for backwards compatibility. For more information see[Logging from Spiders](https://doc.scrapy.org/en/latest/topics/logging.html#topics-logging-from-spiders).
+* `log`\(_message_\[,_level_,_component_\]\)  
+  Wrapper that sends a log message through the Spider’s[`logger`](https://doc.scrapy.org/en/latest/topics/spiders.html#scrapy.spiders.Spider.logger), kept for backwards compatibility. For more information see[Logging from Spiders](https://doc.scrapy.org/en/latest/topics/logging.html#topics-logging-from-spiders).
 
-* `closed`\(_reason_\)
-Called when the spider closes. This method provides a shortcut to signals.connect\(\) for the[`spider_closed`](https://doc.scrapy.org/en/latest/topics/signals.html#std:signal-spider_closed)signal.
+* `closed`\(_reason_\)  
+  当Spider关闭的时候会被调用。这个方法是一个向 signals.connect\(\)发送[`spider_closed`](https://doc.scrapy.org/en/latest/topics/signals.html#std:signal-spider_closed)信号的快捷方式。
 
 
 
