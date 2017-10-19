@@ -4,6 +4,7 @@
 * [方便的包](fang-bian-de-bao.md)
   * pywifi 处理wifi
   * tqdm 显示进度
+  * [win32](fang-bian-de-bao/win32.md)
 * 搭建网站
   * Django
 * [爬虫](pa-chong.md)
