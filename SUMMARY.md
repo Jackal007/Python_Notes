@@ -5,9 +5,11 @@
   * pywifi 处理wifi
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
-* 搭建网站
+* [python web](da-jian-wang-zhan.md)
   * Django
-* [爬虫](pa-chong.md)
+  * [web.py](da-jian-wang-zhan/webpy.md)
+  * [规范WSGI](da-jian-wang-zhan/gui-fan-wsgi.md)
+* [spider](pa-chong.md)
   * [反爬虫](pa-chong/fan-pa-chong.md)
   * [requests](pa-chong/requests.md)
     * [response](pa-chong/requests/response.md)
