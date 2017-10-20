@@ -6,9 +6,10 @@
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
 * [python web](da-jian-wang-zhan.md)
-  * Django
+  * [Django](da-jian-wang-zhan/django.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
   * [规范WSGI](da-jian-wang-zhan/gui-fan-wsgi.md)
+  * flask
 * [spider](pa-chong.md)
   * [反爬虫](pa-chong/fan-pa-chong.md)
   * [requests](pa-chong/requests.md)
