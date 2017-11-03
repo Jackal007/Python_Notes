@@ -5,6 +5,7 @@
   * pywifi 处理wifi
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
+  * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
 * [python web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
