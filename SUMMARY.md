@@ -3,6 +3,7 @@
 * [介绍](README.md)
 * [基本语法](ji-ben-yu-fa.md)
   * [\_\_init\_\_.py的作用](ji-ben-yu-fa/init-py-de-zuo-yong.md)
+  * [注释规范](ji-ben-yu-fa/zhu-shi-gui-fan.md)
 * [方便的包](fang-bian-de-bao.md)
   * pywifi 处理wifi
   * tqdm 显示进度
