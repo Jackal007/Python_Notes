@@ -1,4 +1,4 @@
-from：https://www.cnblogs.com/Lands-ljk/p/5880483.html
+> from：[https://www.cnblogs.com/Lands-ljk/p/5880483.html](https://www.cnblogs.com/Lands-ljk/p/5880483.html)
 
 \_\_init\_\_.py 文件的作用是将文件夹变为一个Python模块,Python 中的每个模块的包中，都有\_\_init\_\_.py 文件。
 
@@ -97,7 +97,7 @@ package
 有以下几种导入方式：
 
 ```
-import subpackage1.a # 将模块subpackage.a导入全局命名空间，例如访问a中属性时用subpackage1.a.attr
+import subpackage1.a # 将模块subpackage1.a导入全局命名空间，例如访问a中属性时用subpackage1.a.attr
 from subpackage1 import a #　将模块a导入全局命名空间，例如访问a中属性时用a.attr_a
 from subpackage.a import attr_a # 将模块a的属性直接导入到命名空间中，例如访问a中属性时直接用attr_a
 ```
