@@ -9,6 +9,21 @@
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
+  * [sklearn](fang-bian-de-bao/sklearn.md)
+    * [Classification](fang-bian-de-bao/sklearn/classification.md)
+      * [Decision Trees](fang-bian-de-bao/sklearn/classification/decision-trees.md)
+      * Gaussian Processes
+      * [Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes.md)
+        * [Gaussian Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/gaussian-naive-bayes.md)
+        * [Multinomial Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/multinomial-naive-bayes.md)
+        * [Bernoulli Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/bernoulli-naive-bayes.md)
+        * [Out-of-core naive Bayes model fitting](fang-bian-de-bao/sklearn/classification/naive-bayes/out-of-core-naive-bayes-model-fitting.md)
+      * [算法融合](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he.md)
+        * AdaBoost
+        * Gradient Tree Boosting
+        * Voting Classifier
+    * Clustering
+    * Regression
 * [python web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
