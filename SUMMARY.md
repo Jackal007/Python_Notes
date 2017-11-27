@@ -11,13 +11,22 @@
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
   * [sklearn](fang-bian-de-bao/sklearn.md)
     * [Classification](fang-bian-de-bao/sklearn/classification.md)
-      * [Decision Trees](fang-bian-de-bao/sklearn/classification/decision-trees.md)
-      * Gaussian Processes
+      * [Trees](fang-bian-de-bao/sklearn/classification/decision-trees.md)
+        * [DecisionTree](fang-bian-de-bao/sklearn/classification/decision-trees/decisiontree.md)
+        * [ExtraTree](fang-bian-de-bao/sklearn/classification/decision-trees/extratree.md)
+        * ID3
+        * C4.5
+        * C5.0
+        * CART
       * [Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes.md)
         * [Gaussian Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/gaussian-naive-bayes.md)
         * [Multinomial Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/multinomial-naive-bayes.md)
         * [Bernoulli Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/bernoulli-naive-bayes.md)
         * [Out-of-core naive Bayes model fitting](fang-bian-de-bao/sklearn/classification/naive-bayes/out-of-core-naive-bayes-model-fitting.md)
+      * [Nearest Neighbors](fang-bian-de-bao/sklearn/classification/nearest-neighbors.md)
+        * KDTree和BallTree类
+      * Gaussian Processes
+      * [Cross decomposition](fang-bian-de-bao/sklearn/classification/cross-decomposition.md)
       * [算法融合](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he.md)
         * AdaBoost
         * Gradient Tree Boosting
