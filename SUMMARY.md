@@ -14,10 +14,6 @@
       * [Trees](fang-bian-de-bao/sklearn/classification/decision-trees.md)
         * [DecisionTree](fang-bian-de-bao/sklearn/classification/decision-trees/decisiontree.md)
         * [ExtraTree](fang-bian-de-bao/sklearn/classification/decision-trees/extratree.md)
-        * ID3
-        * C4.5
-        * C5.0
-        * CART
       * [Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes.md)
         * [Gaussian Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/gaussian-naive-bayes.md)
         * [Multinomial Naive Bayes](fang-bian-de-bao/sklearn/classification/naive-bayes/multinomial-naive-bayes.md)

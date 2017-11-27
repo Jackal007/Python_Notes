@@ -25,7 +25,7 @@ max_features=None,
 random_state:"随机数种子或者随机数生成器"=None, 
 max_leaf_nodes=None, 
 min_impurity_split :"树木生长早期停止的阈值。如果一个节点的杂质高于阈值，节点将分裂，否则就是一片叶子[新版中变了]"=0.0, 
-class_weight:"样本权重，比如[{'a':2},{'b':2},{'c':3}];对于多分类的见官网"=None, 
+class_weight:"样本权重，比如{'label':weight}];对于多分类的见官网"=None, 
 presort:"提前排序数据以加速拟合中的最佳分裂的发现,大数据集中，可能会减慢过程;当使用小的数据集或限制的深度时,可能会加速训练。"=False
 )
 ```
@@ -37,22 +37,22 @@ presort:"提前排序数据以加速拟合中的最佳分裂的发现,大数据�
 ```py
 classes_ : array of shape = [n_classes] or a list of such arrays
                 The classes labels (single output problem), or a list of arrays of class labels (multi-output problem).
-                
+
 feature_importances_ : array of shape = [n_features]
                 The feature importances. The higher, the more important the feature. The importance of a feature is computed as the (normalized) total reduction of the criterion brought by that feature. It is also known as the Gini importance [R251].
-                
+
 max_features_ : int,
                 The inferred value of max_features.
-                
+
 n_classes_ : int or list
                 The number of classes (for single output problems), or a list containing the number of classes for each output (for multi-output problems).
-                
+
 n_features_ : int
                 The number of features when fit is performed.
-                
+
 n_outputs_ : int
                 The number of outputs when fit is performed.
-                
+
 tree_ : Tree object
                 The underlying Tree object.
 ```
@@ -62,13 +62,13 @@ tree_ : Tree object
 ### 方法
 
 ```py
-apply（X，check_input = True ）[source]    #返回每个样本被预测为的叶的索引
+apply（X，check_input = True ）    #返回每个样本被预测为的叶的索引
 
-decision_path（X，check_input = True ）[source]    #返回树中的决策路径
+decision_path（X，check_input = True ）    #返回树中的决策路径
 
 fit（X，y，sample_weight = None，check_input = True，X_idx_sorted = None ）    #训练
 
-get_params（deep = True ）[source]    #获取此估算器的参数
+get_params（deep = True ）    #获取此估算器的参数
 
 predict（X，check_input = True ）#预测
 
