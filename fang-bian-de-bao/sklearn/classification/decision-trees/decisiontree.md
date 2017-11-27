@@ -78,7 +78,7 @@ predict_proba（X，check_input = True ）    #预测输入样本X的类概率
 
 score（X，y，sample_weight = None ）[source]    #返回给定测试数据和标签的平均精确度
 
-set_params（** params )     #设置此分类器的参数。
+set_params（** params )     #设置此分类器的参数
 ```
 
 
