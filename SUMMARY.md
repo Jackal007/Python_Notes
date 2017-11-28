@@ -10,6 +10,15 @@
   * [win32](fang-bian-de-bao/win32.md)
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
   * [sklearn](fang-bian-de-bao/sklearn.md)
+    * [Pipeline](fang-bian-de-bao/sklearn/pipeline.md)
+    * [Preprocessing](fang-bian-de-bao/sklearn/preprocessing.md)
+      * [Scaling features to a range](fang-bian-de-bao/sklearn/preprocessing/jiang-te-zheng-suo-fang-dao-yi-ge-fan-wei.md)
+      * [Binarize](fang-bian-de-bao/sklearn/preprocessing/binarize.md)
+      * [Imputer](fang-bian-de-bao/sklearn/preprocessing/imputer.md)
+      * [Normalizer](fang-bian-de-bao/sklearn/preprocessing/normalizer.md)
+      * [Scale](fang-bian-de-bao/sklearn/preprocessing/scale.md)
+        * [StandardScaler](fang-bian-de-bao/sklearn/preprocessing/scale/standardscaler.md)
+      * [OneHotEncoder](fang-bian-de-bao/sklearn/preprocessing/onehotencoder.md)
     * [Classification](fang-bian-de-bao/sklearn/classification.md)
       * [Trees](fang-bian-de-bao/sklearn/classification/decision-trees.md)
         * [DecisionTree](fang-bian-de-bao/sklearn/classification/decision-trees/decisiontree.md)
@@ -23,12 +32,16 @@
         * KDTree和BallTree类
       * Gaussian Processes
       * [Cross decomposition](fang-bian-de-bao/sklearn/classification/cross-decomposition.md)
-      * [算法融合](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he.md)
-        * AdaBoost
-        * Gradient Tree Boosting
-        * Voting Classifier
     * Clustering
     * Regression
+    * Feature Selection
+    * Model Selection
+    * [算法融合](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he.md)
+      * [Bagging meta-estimator](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he/bagging-meta-estimator.md)
+      * [Forests of randomized trees](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he/forests-of-randomized-trees.md)
+      * [AdaBoost](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he/adaboost.md)
+      * [Gradient Tree Boosting](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he/gradient-tree-boosting.md)
+      * [Voting Classifier](fang-bian-de-bao/sklearn/classification/suan-fa-rong-he/voting-classifier.md)
 * [python web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
