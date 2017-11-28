@@ -11,6 +11,7 @@
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
   * [sklearn](fang-bian-de-bao/sklearn.md)
     * [Pipeline](fang-bian-de-bao/sklearn/pipeline.md)
+      * [FeatureUnion](fang-bian-de-bao/sklearn/pipeline/featureunion.md)
     * [Preprocessing](fang-bian-de-bao/sklearn/preprocessing.md)
       * [Scaling features to a range](fang-bian-de-bao/sklearn/preprocessing/jiang-te-zheng-suo-fang-dao-yi-ge-fan-wei.md)
       * [Binarize](fang-bian-de-bao/sklearn/preprocessing/binarize.md)
