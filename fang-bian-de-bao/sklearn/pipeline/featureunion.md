@@ -1,4 +1,4 @@
-# FeatureUnion填补缺失的数据
+# FeatureUnion特征联合
 
 ```py
 class sklearn.pipeline.FeatureUnion(
@@ -8,64 +8,39 @@ transformer_weights=None
 )
 ```
 
-填补缺失的数据
+连接多个`transformer`对象的结果。
+
+该估算器将变压器对象列表与输入数据并行应用，然后连接结果。
+
+将几个`transformer`组合成一个`transformer`器是非常有用的。
+
+其实就是将多个特征选择器合成一个
 
 ---
 
 ### 参数：
 
-**missing\_values**：整数或“NaN”，可选（默认=“NaN”）
+**transformer\_list**：（字符串，变换器）元组列表
 
-> 缺少值的占位符。所有发生的missing\_values将被计算。对于编码为np.nan的缺失值，使用字符串值“NaN”。
+> 要应用于数据的变换器对象的列表。每个元组的前半部分是变压器的名称。
 
-**策略**：字符串，可选（默认=“平均”）
+**n\_jobs**：int，可选
 
-> 插补策略。
->
-> * 如果“mean”，则用沿着轴的平均值代替缺失的值。
-> * 如果“中位数”，则使用沿轴的中位数替换缺失值。
-> * 如果“most\_frequent”，则使用轴上最频繁的值替换缺失。
+> 并行运行的作业数（默认值为1）。
 
-**轴**：整数，可选（默认值= 0）
+**transformer\_weights**：字典，可选
 
-> 用来指示的轴线。
->
-> * 如果
->   axis = 0
->   ，则沿着列进行置换。
-> * 如果
->   axis = 1
->   ，则沿行排除。
-
-**详细**：整数，可选（默认= 0）
-
-> 控制说话者的冗长。
-
-**复制**：布尔值，可选（默认= True）
-
-> 如果为True，则会创建一个X的副本。如果是假的，只要可能，插补将在原地完成。请注意，在下列情况下，即使copy = False，也总是会创建一个新副本：
->
-> * 如果X不是浮点数组，
-> * 如果X是稀疏的而且
->   missing\_values = 0
->   ;
-> * 如果
->   axis = 0
->   并且X被编码为CSR矩阵;
-> * 如果
->   axis = 1
->   并且X被编码为CSC矩阵。
-
----
+> 每个变压器功能的乘法权重。键是变压器的名称，值的权重。
 
 ### 方法：
 
-| `fit`（X \[，y\]） | 训练，并计算X |
+| fit（X \[，y\]） | 适合所有变压器使用X. |
 | :--- | :--- |
-| [`fit_transform`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.fit_transform)（X \[，y\]） | 适合数据，然后转换它。 |
-| [`get_params`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.get_params)（_deep=True_） | 获取此估算器的参数。 |
-| [`set_params`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.set_params)（\*\* PARAMS） | 设置此估算器的参数。 |
-| [`transform`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.transform)（X \[，y，copy\]） | 二进制化X的 |
+| [`fit_transform`](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion.fit_transform)（X \[，y\]） | 适合所有变压器，变换数据并连接结果。 |
+| [`get_feature_names`](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion.get_feature_names)（） | 从所有变压器获取功能名称。 |
+| [`get_params`](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion.get_params)（\[深\]） | 获取此估算器的参数。 |
+| [`set_params`](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion.set_params)（\*\* kwargs） | 设置此估算器的参数。 |
+| [`transform`](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion.transform)（X） | 通过每个变压器分别变换X，连接结果。 |
 
 
 
