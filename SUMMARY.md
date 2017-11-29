@@ -19,6 +19,9 @@
         * [StandardScaler](fang-bian-de-bao/sklearn/preprocessing/scale/standardscaler.md)
       * [OneHotEncoder](fang-bian-de-bao/sklearn/preprocessing/onehotencoder.md)
     * [Feature Selection特征选择](fang-bian-de-bao/sklearn/feature-selection.md)
+      * [SelectKBest](fang-bian-de-bao/sklearn/feature-selection/selectkbest.md)
+      * [SelectPercentile](fang-bian-de-bao/sklearn/feature-selection/selectpercentile.md)
+      * ...
     * [Estimator预测器](fang-bian-de-bao/sklearn/estimator.md)
       * [Regression](fang-bian-de-bao/sklearn/regression.md)
       * Clustering
