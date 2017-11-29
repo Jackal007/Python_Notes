@@ -6,6 +6,28 @@
 
 通常，学习算法从数据集的标准化中受益。如果在一组中存在一些异常值，则鲁棒的比例调整器或变压器更合适。[比较不同缩放](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)比例[对数据与异常值的影响，](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)突出显示[不同缩放](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)比例，变换比例和归一化数据在包含边缘离群值的数据集上的行为。
 
+| 包 |
+| :--- |
+
+
+|  | 类 | 参数列表 | 类别 | fit方法有用 | 说明 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| sklearn.preprocessing | StandardScaler | 特征 | 无监督 | Y | 标准化 |
+| sklearn.preprocessing | MinMaxScaler | 特征 | 无监督 | Y | 区间缩放 |
+| sklearn.preprocessing | Normalizer | 特征 | 无信息 | N | 归一化 |
+| sklearn.preprocessing | Binarizer | 特征 | 无信息 | N | 定量特征二值化 |
+| sklearn.preprocessing | OneHotEncoder | 特征 | 无监督 | Y | 定性特征编码 |
+| sklearn.preprocessing | Imputer | 特征 | 无监督 | Y | 缺失值计算 |
+| sklearn.preprocessing | PolynomialFeatures | 特征 | 无信息 | N | 多项式变换（fit方法仅仅生成了多项式的表达式） |
+| sklearn.preprocessing | FunctionTransformer | 特征 | 无信息 | N | 自定义函数变换（自定义函数在transform方法中调用） |
+| sklearn.feature\_selection | VarianceThreshold | 特征 | 无监督 | Y | 方差选择法 |
+| sklearn.feature\_selection | SelectKBest | 特征/特征+目标值 | 无监督/有监督 | Y | 自定义特征评分选择法 |
+| sklearn.feature\_selection | SelectKBest+chi2 | 特征+目标值 | 有监督 | Y | 卡方检验选择法 |
+| sklearn.feature\_selection | RFE | 特征+目标值 | 有监督 | Y | 递归特征消除法 |
+| sklearn.feature\_selection | SelectFromModel | 特征+目标值 | 有监督 | Y | 自定义模型训练选择法 |
+| sklearn.decomposition | PCA | 特征 | 无监督 | Y | PCA降维 |
+| sklearn.lda | LDA | 特征+目标值 | 有监督 | Y | LDA降维 |
+
 ### 例子：
 
 ```py
