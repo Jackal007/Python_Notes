@@ -10,7 +10,7 @@ transformer_weights=None
 
 连接多个`transformer`对象的结果。
 
-该估算器将变压器对象列表与输入数据并行应用，然后连接结果。
+该估算器将`transformer`对象列表与输入数据并行应用，然后连接结果。
 
 将几个`transformer`组合成一个`transformer`器是非常有用的。
 
