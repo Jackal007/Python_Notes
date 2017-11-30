@@ -67,5 +67,7 @@ MinMaxScaler(copy=True, feature_range=(0, 1))
 | inverse\_transform\(X\) | Reverse the transformation operation |
 | [`set_params`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.set_params)（\*\* PARAMS） | 设置此估算器的参数。 |
 | [`transform`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer.transform)（X \[，y，copy\]） | 二进制化X的 |
-|partial\_fit\(X\[, y\]\)| Online computation of min and max on X for later scaling.|
+| partial\_fit\(X\[, y\]\) | Online computation of min and max on X for later scaling. |
+
+
 

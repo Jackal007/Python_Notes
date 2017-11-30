@@ -1,7 +1,12 @@
 # Imputer填补缺失的数据
 
 ```py
-class sklearn.preprocessing.Imputer(missing_values=’NaN’, strategy=’mean’, axis=0, verbose=0, copy=True)
+class sklearn.preprocessing.Imputer(
+missing_values=’NaN’, 
+strategy=’mean’, 
+axis=0, 
+verbose=0, 
+copy=True)
 ```
 
 填补缺失的数据
@@ -14,7 +19,7 @@ class sklearn.preprocessing.Imputer(missing_values=’NaN’, strategy=’mean�
 
 > 缺少值的占位符。所有发生的missing\_values将被计算。对于编码为np.nan的缺失值，使用字符串值“NaN”。
 
-**策略**：字符串，可选（默认=“平均”）
+**strategy**：字符串，可选（默认=“平均”）
 
 > 插补策略。
 >
@@ -22,7 +27,7 @@ class sklearn.preprocessing.Imputer(missing_values=’NaN’, strategy=’mean�
 > * 如果“中位数”，则使用沿轴的中位数替换缺失值。
 > * 如果“most\_frequent”，则使用轴上最频繁的值替换缺失。
 
-**轴**：整数，可选（默认值= 0）
+**axis**：整数，可选（默认值= 0）
 
 > 用来指示的轴线。
 >
@@ -33,24 +38,31 @@ class sklearn.preprocessing.Imputer(missing_values=’NaN’, strategy=’mean�
 >   axis = 1
 >   ，则沿行排除。
 
-**详细**：整数，可选（默认= 0）
+**verbose**：整数，可选（默认= 0）
 
 > 控制说话者的冗长。
 
-**复制**：布尔值，可选（默认= True）
+**copy**：布尔值，可选（默认= True）
 
 > 如果为True，则会创建一个X的副本。如果是假的，只要可能，插补将在原地完成。请注意，在下列情况下，即使copy = False，也总是会创建一个新副本：
 >
 > * 如果X不是浮点数组，
 > * 如果X是稀疏的而且
->   missing\_values = 0
->   ;
+>   missing\_values = 0;
 > * 如果
 >   axis = 0
 >   并且X被编码为CSR矩阵;
 > * 如果
 >   axis = 1
 >   并且X被编码为CSC矩阵。
+
+---
+
+### 属性：
+
+**statistics\_**: array of shape \(n\_features,\)
+
+> 轴== 0时，每个特征的插补填充值
 
 ---
 

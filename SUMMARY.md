@@ -12,6 +12,7 @@
   * [sklearn](fang-bian-de-bao/sklearn.md)
     * [Preprocessing预处理](fang-bian-de-bao/sklearn/preprocessing.md)
       * [MinMaxScaler](fang-bian-de-bao/sklearn/preprocessing/jiang-te-zheng-suo-fang-dao-yi-ge-fan-wei.md)
+        * minmax\_scale
       * [Binarize](fang-bian-de-bao/sklearn/preprocessing/binarize.md)
       * [Imputer](fang-bian-de-bao/sklearn/preprocessing/imputer.md)
       * [Normalizer](fang-bian-de-bao/sklearn/preprocessing/normalizer.md)
