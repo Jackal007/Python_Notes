@@ -6,11 +6,7 @@
 
 通常，学习算法从数据集的标准化中受益。如果在一组中存在一些异常值，则鲁棒的比例调整器或变压器更合适。[比较不同缩放](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)比例[对数据与异常值的影响，](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)突出显示[不同缩放](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)比例，变换比例和归一化数据在包含边缘离群值的数据集上的行为。
 
-| 包 |
-| :--- |
-
-
-|  | 类 | 参数列表 | 类别 | fit方法有用 | 说明 |
+| 包 | 类 | 参数列表 | 类别 | fit方法有用 | 说明 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | sklearn.preprocessing | StandardScaler | 特征 | 无监督 | Y | 标准化 |
 | sklearn.preprocessing | MinMaxScaler | 特征 | 无监督 | Y | 区间缩放 |
