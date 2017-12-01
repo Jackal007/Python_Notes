@@ -176,5 +176,6 @@
     * 内置服务
 * [代码调试](dai-ma-diao-shi.md)
   * [PDB](dai-ma-diao-shi/pdb.md)
-  * PyDev
+  * [PyDev](dai-ma-diao-shi/pydev.md)
+  * [日志功能](dai-ma-diao-shi/ri-zhi-gong-neng.md)
 
