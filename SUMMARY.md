@@ -178,4 +178,6 @@
   * [PDB](dai-ma-diao-shi/pdb.md)
   * [PyDev](dai-ma-diao-shi/pydev.md)
   * [日志功能](dai-ma-diao-shi/ri-zhi-gong-neng.md)
+* [测试](ce-shi.md)
+  * [单元测试](ce-shi/dan-yuan-ce-shi.md)
 
