@@ -174,4 +174,7 @@
       * Exceptions
       * Command line tool
     * 内置服务
+* [代码调试](dai-ma-diao-shi.md)
+  * [PDB](dai-ma-diao-shi/pdb.md)
+  * PyDev
 
