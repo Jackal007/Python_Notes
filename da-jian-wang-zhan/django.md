@@ -4,5 +4,5 @@
 pip install django
 ```
 
-
+http://usyiyi.cn/translate/Django\_111/index.html
 
