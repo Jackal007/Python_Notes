@@ -6,5 +6,3 @@ pip install django
 
 
 
-
-
