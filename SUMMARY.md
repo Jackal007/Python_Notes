@@ -4,6 +4,7 @@
 * [基本语法](ji-ben-yu-fa.md)
   * [\_\_init\_\_.py的作用](ji-ben-yu-fa/init-py-de-zuo-yong.md)
   * [注释规范](ji-ben-yu-fa/zhu-shi-gui-fan.md)
+  * [命名规范](ji-ben-yu-fa/ming-ming-gui-fan.md)
 * [python web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建一个项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
@@ -191,4 +192,5 @@
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
+  * SQLite
 
