@@ -57,6 +57,7 @@
       * [Model Selection模型选择，算法评估](fang-bian-de-bao/sklearn/model-selection.md)
     * [NumPy](fang-bian-de-bao/numpy.md)
       * [基本](fang-bian-de-bao/numpy/ji-ben.md)
+      * [数组创建](fang-bian-de-bao/numpy/dui-xiang-chuang-jian.md)
 * [python web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
