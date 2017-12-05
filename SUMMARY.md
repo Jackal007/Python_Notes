@@ -17,6 +17,7 @@
     * [创建应用](da-jian-wang-zhan/django/chuang-jian-ying-yong.md)
       * [安装应用](da-jian-wang-zhan/django/chuang-jian-ying-yong/an-zhuang-ying-yong.md)
       * [编写应用视图](da-jian-wang-zhan/django/chuang-jian-ying-yong/bian-xie-ying-yong-shi-tu.md)
+        * [页面模板](da-jian-wang-zhan/django/chuang-jian-ying-yong/bian-xie-ying-yong-shi-tu/ye-mian.md)
     * [模型](da-jian-wang-zhan/django/mo-xing.md)
       * [创建模型](da-jian-wang-zhan/django/chuang-jian-mo-xing.md)
       * [模型字段类型](da-jian-wang-zhan/django/mo-xing/mo-xing-zi-duan-lei-xing.md)
