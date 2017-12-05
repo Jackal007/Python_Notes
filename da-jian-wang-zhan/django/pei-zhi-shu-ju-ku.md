@@ -1,5 +1,7 @@
 > from：[http://blog.csdn.net/it\_dream\_er/article/details/52092262](http://blog.csdn.net/it_dream_er/article/details/52092262)
 
+# 配置MySQL数据库
+
 这是settings文件里面的基础配置，使用的是sqlite,那我们需要连接其他数据库呢？
 
 1. `DATABASES = {`

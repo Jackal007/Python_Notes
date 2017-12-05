@@ -1,3 +1,5 @@
+# 创建模型
+
 当编写一个数据库驱动的Web应用时，第一步就是定义该应用的模型 —— 本质上，就是定义该模型所对应的数据库设计及其附带的元数据。
 
 模型指出了数据的唯一、明确的真实来源。它包含了正在存储的数据的基本字段和行为。Django遵循[_DRY \(Don't repeat yourself\)原则_](http://python.usyiyi.cn/documents/django_182/misc/design-philosophies.html#dry)。这个原则的目标是在一个地方定义你的数据模型，并自动从它获得需要的信息。
@@ -36,20 +38,6 @@ class Choice(models.Model):
 [Field](http://python.usyiyi.cn/documents/django_182/ref/models/fields.html#django.db.models.Field)还具有各种可选参数。在这个例子中，我们设置votes字段的[默认值](http://python.usyiyi.cn/documents/django_182/ref/models/fields.html#django.db.models.Field.default)为0。
 
 最后，注意我们使用[ForeignKey](http://python.usyiyi.cn/documents/django_182/ref/models/fields.html#django.db.models.ForeignKey)定义了一个关联。它告诉Django每个Choice都只关联一个Question。Django支持所有常见的数据库关联：多对一、多对多和一对一。
-
-## 激活模型
-
-上面那段简短的模型代码给了Django很多信息。有了这些代码，Django就能够自动完成以下两个功能：
-
-* 为该应用创建数据库表（CREATE TABLE语句）。
-* 为Question对象和Choice对象创建一个访问数据库的python API。
-
-但是，我们首先得告诉项目：polls应用已经安装。
-
-```
-python manage.py make migration app_name
-python manage.py migrate
-```
 
 
 

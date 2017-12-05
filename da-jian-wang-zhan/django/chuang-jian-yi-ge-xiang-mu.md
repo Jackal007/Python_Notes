@@ -1,4 +1,4 @@
-## 创建一个项目
+## 项目
 
 ```py
 $ django-admin startproject mysite
@@ -15,8 +15,6 @@ mysite/
         urls.py
         wsgi.py
 ```
-
-这些文件是：
 
 * 外层的mysite/根目录仅仅是项目的一个容器。它的命名对Django无关紧要；你可以把它重新命名为任何你喜欢的名字。
 * manage.py：一个命令行工具，可以使你用多种方式对Django项目进行交互。你可以在[_django-admin和manage.py_](http://python.usyiyi.cn/documents/django_182/ref/django-admin.html)中读到关于manage.py的所有细节。
