@@ -5,9 +5,15 @@
   * [\_\_init\_\_.py的作用](ji-ben-yu-fa/init-py-de-zuo-yong.md)
   * [注释规范](ji-ben-yu-fa/zhu-shi-gui-fan.md)
   * [命名规范](ji-ben-yu-fa/ming-ming-gui-fan.md)
-* [python web](da-jian-wang-zhan.md)
+* [Other Packages](fang-bian-de-bao.md)
+  * pywifi 处理wifi
+  * tqdm 显示进度
+  * [win32](fang-bian-de-bao/win32.md)
+  * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
+  * SQLite
+* [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
-    * [创建一个项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
+    * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
     * [创建应用](da-jian-wang-zhan/django/chuang-jian-ying-yong.md)
     * [创建模型](da-jian-wang-zhan/django/chuang-jian-mo-xing.md)
     * [打开网站](da-jian-wang-zhan/django/da-kai-wang-zhan.md)
@@ -17,7 +23,7 @@
   * [web.py](da-jian-wang-zhan/webpy.md)
   * [规范WSGI](da-jian-wang-zhan/gui-fan-wsgi.md)
   * flask
-* python BigData
+* Python BigData
   * 5
   * [sklearn](fang-bian-de-bao/sklearn.md)
     * [Preprocessing预处理](fang-bian-de-bao/sklearn/preprocessing.md)
@@ -69,7 +75,7 @@
     * [数组创建](fang-bian-de-bao/numpy/dui-xiang-chuang-jian.md)
   * [SciPy](fang-bian-de-bao/scipy.md)
   * matplotlib
-* [spider](pa-chong.md)
+* [Python Spider](pa-chong.md)
   * [反爬虫](pa-chong/fan-pa-chong.md)
   * [requests](pa-chong/requests.md)
     * [response](pa-chong/requests/response.md)
@@ -181,16 +187,10 @@
       * Exceptions
       * Command line tool
     * 内置服务
-* [代码调试](dai-ma-diao-shi.md)
+* [Debug](dai-ma-diao-shi.md)
   * [PDB](dai-ma-diao-shi/pdb.md)
   * [PyDev](dai-ma-diao-shi/pydev.md)
   * [日志功能](dai-ma-diao-shi/ri-zhi-gong-neng.md)
-* [测试](ce-shi.md)
+* [Test](ce-shi.md)
   * [单元测试](ce-shi/dan-yuan-ce-shi.md)
-* [other packages](fang-bian-de-bao.md)
-  * pywifi 处理wifi
-  * tqdm 显示进度
-  * [win32](fang-bian-de-bao/win32.md)
-  * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
-  * SQLite
 
