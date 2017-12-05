@@ -60,5 +60,7 @@ urlpatterns = [
 
 [`include()`](http://usyiyi.cn/documents/Django_111/ref/urls.html#django.conf.urls.include)背后的想法是即插即用使网址变得容易。由于投票应用是在自己的URLconf（`polls/urls.py`）中，它们可以放在“/polls/”下或“/fun\_polls/”下或“/content/polls/”下，或任何其他路径根，并且应用程序仍然可以工作。
 
++
 
+http://usyiyi.cn/documents/Django\_111/intro/tutorial03.html\#removing-hardcoded-urls-in-templates
 
