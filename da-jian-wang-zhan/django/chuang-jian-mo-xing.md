@@ -13,11 +13,9 @@ polls/models.py
 ```py
 from django.db import models
 
-
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
-
 
 class Choice(models.Model):
     question = models.ForeignKey(Question)
@@ -39,14 +37,19 @@ class Choice(models.Model):
 
 最后，注意我们使用[ForeignKey](http://python.usyiyi.cn/documents/django_182/ref/models/fields.html#django.db.models.ForeignKey)定义了一个关联。它告诉Django每个Choice都只关联一个Question。Django支持所有常见的数据库关联：多对一、多对多和一对一。
 
-## 激活模型[¶](http://python.usyiyi.cn/documents/django_182/intro/tutorial01.html#activating-models)
+## 激活模型
 
 上面那段简短的模型代码给了Django很多信息。有了这些代码，Django就能够自动完成以下两个功能：
 
 * 为该应用创建数据库表（CREATE TABLE语句）。
 * 为Question对象和Choice对象创建一个访问数据库的python API。
 
-但是，我们首先得告诉项目：polls应用已经安装。 
+但是，我们首先得告诉项目：polls应用已经安装。
+
+```
+python manage.py make migration app_name
+python manage.py migrate
+```
 
 
 
