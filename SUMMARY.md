@@ -31,6 +31,8 @@
       * [配置数据库](da-jian-wang-zhan/django/pei-zhi-shu-ju-ku.md)
     * [打开网站](da-jian-wang-zhan/django/da-kai-wang-zhan.md)
     * [管理模块](da-jian-wang-zhan/django/guan-li-mo-kuai.md)
+    * [视图](da-jian-wang-zhan/django/shi-tu.md)
+      * 基于类的视图
   * [web.py](da-jian-wang-zhan/webpy.md)
   * [规范WSGI](da-jian-wang-zhan/gui-fan-wsgi.md)
   * flask
