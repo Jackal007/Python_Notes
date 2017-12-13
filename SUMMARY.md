@@ -33,6 +33,7 @@
     * [管理模块](da-jian-wang-zhan/django/guan-li-mo-kuai.md)
     * [视图](da-jian-wang-zhan/django/shi-tu.md)
       * 基于类的视图
+    * [message](da-jian-wang-zhan/django/message.md)
   * [web.py](da-jian-wang-zhan/webpy.md)
   * [规范WSGI](da-jian-wang-zhan/gui-fan-wsgi.md)
   * flask
