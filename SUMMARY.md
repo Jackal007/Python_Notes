@@ -5,6 +5,9 @@
   * [\_\_init\_\_.py的作用](ji-ben-yu-fa/init-py-de-zuo-yong.md)
   * [注释规范](ji-ben-yu-fa/zhu-shi-gui-fan.md)
   * [命名规范](ji-ben-yu-fa/ming-ming-gui-fan.md)
+  * [特殊方法](ji-ben-yu-fa/te-shu-fang-fa.md)
+    * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
+    * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
 * [Other Packages](fang-bian-de-bao.md)
   * pywifi 处理wifi
   * tqdm 显示进度
