@@ -1,4 +1,4 @@
-form：[ https://mrwlwan.wordpress.com/2008/09/25/python%EF%BC%9A-%E4%BD%BF%E7%94%A8-optparse-%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0/](https://mrwlwan.wordpress.com/2008/09/25/python%EF%BC%9A-%E4%BD%BF%E7%94%A8-optparse-%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0/)
+form：[ https://mrwlwan.wordpress.com/2008/09/25/python%EF%BC%9A-%E4%BD%BF%E7%94%A8-optparse-%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0/](https://mrwlwan.wordpress.com/2008/09/25/python：-使用-optparse-处理命令行参数/)
 
 # 示例
 
@@ -234,8 +234,6 @@ options:
     -g                 Group option.
 ```
 
-
-
 # 显示程序版本
 
 象 usage message 一样，你可以在创建 OptionParser 对象时，指定其 version 参数，用于显示当前程序的版本信息：
@@ -250,8 +248,6 @@ parser = OptionParser(usage="%prog [-f] [-q]", version="%prog 1.0")
 $ /usr/bin/foo --version
 foo 1.0
 ```
-
-
 
 # 处理异常
 
@@ -281,42 +277,25 @@ nd -b are mutually exclusive")
 
 如果以上的异常处理方法还不能满足要求，你可能需要继承 OptionParser 类，并重载 exit\(\) 和 erro\(\) 方法。
 
-
-
 # 完整的程序例子
 
 ```
 from optparse import OptionParser
 [...]
-
 def main():
-
     usage = "usage: %prog [options] arg"
-
     parser = OptionParser(usage)
-
     parser.add_option("-f", "--file", dest="filename",
                       help="read data from FILENAME")
-
-
     parser.add_option("-v", "--verbose",
                       action="store_true", dest="verbose")
-
-
     parser.add_option("-q", "--quiet",
                       action="store_false", dest="verbose")
-
     [...]
-
     (options, args) = parser.parse_args()
     if len(args) != 1:
-
-
-parser.error("incorrect
-er of arguments")
-
+        parser.error("incorrecter of arguments")
     if options.verbose:
-
         print "reading %s..." % options.filename
     [...]
 if __name__ == "__main__":
