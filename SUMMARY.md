@@ -14,6 +14,7 @@
   * [win32](fang-bian-de-bao/win32.md)
   * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
   * SQLite
+  * [optparse 处理脚本的选项](fang-bian-de-bao/optparse-chu-li-jiao-ben-de-xuan-xiang.md)
 * [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
