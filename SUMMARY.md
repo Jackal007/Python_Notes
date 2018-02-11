@@ -8,13 +8,6 @@
   * [特殊方法](ji-ben-yu-fa/te-shu-fang-fa.md)
     * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
-* [Other Packages](fang-bian-de-bao.md)
-  * pywifi 处理wifi
-  * tqdm 显示进度
-  * [win32](fang-bian-de-bao/win32.md)
-  * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
-  * SQLite
-  * [optparse 处理脚本的选项](fang-bian-de-bao/optparse-chu-li-jiao-ben-de-xuan-xiang.md)
 * [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
@@ -206,6 +199,16 @@
       * Exceptions
       * Command line tool
     * 内置服务
+* [Python Hacker](python-hacker.md)
+  * [python-nmap](python-hacker/nmap.md)
+  * pywifi 处理wifi
+  * [socket](python-hacker/socket.md)
+* [Other Packages](fang-bian-de-bao.md)
+  * tqdm 显示进度
+  * [win32](fang-bian-de-bao/win32.md)
+  * [pytube下载视频](fang-bian-de-bao/pytubexia-zai-shi-pin.md)
+  * SQLite
+  * [optparse 处理脚本的选项](fang-bian-de-bao/optparse-chu-li-jiao-ben-de-xuan-xiang.md)
 * [Debug](dai-ma-diao-shi.md)
   * [PDB](dai-ma-diao-shi/pdb.md)
   * [PyDev](dai-ma-diao-shi/pydev.md)
