@@ -203,6 +203,7 @@
   * [python-nmap](python-hacker/nmap.md)
   * pywifi 处理wifi
   * [socket](python-hacker/socket.md)
+  * [pexpect](python-hacker/pexpect.md)
 * [Other Packages](fang-bian-de-bao.md)
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
