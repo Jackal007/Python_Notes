@@ -1,3 +1,5 @@
+[https://gist.github.com/kevinkindom/108ffd675cb9253f8f71](https://gist.github.com/kevinkindom/108ffd675cb9253f8f71)
+
 # Python 网络编程
 
 Python 提供了两个级别访问的网络服务。：
@@ -113,7 +115,7 @@ port = 12345                # 设置端口好
 
 s.connect((host, port))
 print s.recv(1024)
-s.close() 
+s.close()
 ```
 
 现在我们打开两个终端，第一个终端执行 server.py 文件：
