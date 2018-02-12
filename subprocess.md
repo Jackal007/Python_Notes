@@ -49,12 +49,12 @@ tmpfs        tmpfs    2.8G     0  2.8G   0% /dev/shm
   #在/root下创建一个suprocesstest的目录：
   >>> a = subprocess.Popen('mkdir subprocesstest',shell=True,cwd='/root')
   ```
-
 * child.poll\(\)    \#检查子进程状态
 
 * child.kill\(\)     \#终止子进程
 
 * child.send\_signal\(\)    \#向子进程发送信号
+
 * child.terminate\(\)   \#终止子进程
 
 例子
@@ -76,12 +76,10 @@ obj.stderr.close()
 
 print cmd_out
 print cmd_error
-复制代码
- 
+
 
 也可以使用如下方法：
 
-复制代码
 import subprocess
 
 obj = subprocess.Popen(["python"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -92,10 +90,8 @@ obj.stdin.write('print 4 \n')
 
 out_error_list = obj.communicate()
 print out_error_list
-复制代码
- 
 
-示例3，将一个子进程的输出，作为另一个子进程的输入：
+#将一个子进程的输出，作为另一个子进程的输入：
 
 import subprocess
 child1 = subprocess.Popen(["cat","/etc/passwd"], stdout=subprocess.PIPE)
