@@ -1,13 +1,16 @@
 # Summary
 
 * [介绍](README.md)
-* [基本语法](ji-ben-yu-fa.md)
+* [Basic Syntax](ji-ben-yu-fa.md)
   * [\_\_init\_\_.py的作用](ji-ben-yu-fa/init-py-de-zuo-yong.md)
   * [注释规范](ji-ben-yu-fa/zhu-shi-gui-fan.md)
   * [命名规范](ji-ben-yu-fa/ming-ming-gui-fan.md)
   * [特殊方法](ji-ben-yu-fa/te-shu-fang-fa.md)
     * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
+* incide Packages
+  * os
+  * [subprocess](subprocess.md)
 * [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
@@ -204,6 +207,7 @@
   * pywifi 处理wifi
   * [socket](python-hacker/socket.md)
   * [pexpect](python-hacker/pexpect.md)
+  * Metasploit
 * [Other Packages](fang-bian-de-bao.md)
   * tqdm 显示进度
   * [win32](fang-bian-de-bao/win32.md)
@@ -214,6 +218,5 @@
   * [PDB](dai-ma-diao-shi/pdb.md)
   * [PyDev](dai-ma-diao-shi/pydev.md)
   * [日志功能](dai-ma-diao-shi/ri-zhi-gong-neng.md)
-* [Test](ce-shi.md)
-  * [单元测试](ce-shi/dan-yuan-ce-shi.md)
+* incide Packages
 
