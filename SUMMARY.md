@@ -12,6 +12,7 @@
   * os
   * [subprocess](subprocess.md)
   * [shlex](shlex.md)
+  * [sys](sys.md)
 * [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
