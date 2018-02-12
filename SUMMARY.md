@@ -9,7 +9,7 @@
     * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
 * [Python Standard Modules](incide-packages.md)
-  * os
+  * [os](os.md)
   * [subprocess](subprocess.md)
   * [shlex](shlex.md)
   * [sys](sys.md)
