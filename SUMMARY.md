@@ -8,9 +8,10 @@
   * [特殊方法](ji-ben-yu-fa/te-shu-fang-fa.md)
     * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
-* incide Packages
+* [Python Standard Modules](incide-packages.md)
   * os
   * [subprocess](subprocess.md)
+  * [shlex](shlex.md)
 * [Python Web](da-jian-wang-zhan.md)
   * [Django](da-jian-wang-zhan/django.md)
     * [创建项目](da-jian-wang-zhan/django/chuang-jian-yi-ge-xiang-mu.md)
