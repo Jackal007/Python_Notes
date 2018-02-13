@@ -8,7 +8,7 @@
   * [特殊方法](ji-ben-yu-fa/te-shu-fang-fa.md)
     * [\_\_str\_\_和\_\_repr](ji-ben-yu-fa/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](ji-ben-yu-fa/te-shu-fang-fa/len.md)
-* [Python Standard Modules](incide-packages.md)
+* [Standard Modules](incide-packages.md)
   * [os](os.md)
   * [subprocess](subprocess.md)
   * [shlex](shlex.md)
@@ -206,6 +206,7 @@
     * 内置服务
 * [Python Hacker](python-hacker.md)
   * [python-nmap](python-hacker/nmap.md)
+    * [nmap软件使用手册](python-hacker/nmap/nmapruan-jian-shi-yong-shou-ce.md)
   * pywifi 处理wifi
   * [socket](python-hacker/socket.md)
   * [pexpect](python-hacker/pexpect.md)
