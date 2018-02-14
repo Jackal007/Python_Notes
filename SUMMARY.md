@@ -208,6 +208,10 @@
   * [python-nmap](python-hacker/nmap.md)
     * [nmap软件使用手册](python-hacker/nmap/nmapruan-jian-shi-yong-shou-ce.md)
   * [pexpect](python-hacker/pexpect.md)
+    * [spawn类](python-hacker/pexpect/spqwnlei.md)
+      * [expect方法](python-hacker/pexpect/expectfang-fa.md)
+      * [read方法](python-hacker/pexpect/readfang-fa.md)
+      * [send方法](python-hacker/pexpect/sendfang-fa.md)
   * pywifi 处理wifi
   * [socket](python-hacker/socket.md)
   * Metasploit
