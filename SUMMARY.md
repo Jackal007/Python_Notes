@@ -212,6 +212,8 @@
       * [expect方法](python-hacker/pexpect/expectfang-fa.md)
       * [read方法](python-hacker/pexpect/readfang-fa.md)
       * [send方法](python-hacker/pexpect/sendfang-fa.md)
+      * [run方法](python-hacker/pexpect/runfang-fa.md)
+    * [pxssh类](python-hacker/pexpect/pxsshlei.md)
   * pywifi 处理wifi
   * [socket](python-hacker/socket.md)
   * Metasploit
