@@ -208,6 +208,8 @@
 * [Python Hacker](python-hacker.md)
   * [python-nmap](python-hacker/nmap.md)
     * [nmap软件使用手册](python-hacker/nmap/nmapruan-jian-shi-yong-shou-ce.md)
+      * [hhhh](python-hacker/nmap/nmapruan-jian-shi-yong-shou-ce/hhhh.md)
+        * [全面扫描](python-hacker/nmap/nmapruan-jian-shi-yong-shou-ce/hhhh/quan-mian-sao-miao.md)
   * [pexpect](python-hacker/pexpect.md)
     * [spawn类](python-hacker/pexpect/spqwnlei.md)
       * [expect方法](python-hacker/pexpect/expectfang-fa.md)
