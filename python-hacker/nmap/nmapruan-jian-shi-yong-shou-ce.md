@@ -1,8 +1,10 @@
 from：[http://www.nmap.com.cn/doc/manual.shtm](http://www.nmap.com.cn/doc/manual.shtm)
 
-## 选项概要
+# nmap软件使用手册
 
-当Nmap不带选项运行时，该选项概要会被输出，最新的版本在这里[http://www.insecure.org/nmap/data/nmap.usage.txt](http://www.insecure.org/nmap/data/nmap.usage.txt)。 它帮助人们记住最常用的选项，但不能替代本手册其余深入的文档，一些晦涩的选项甚至不在这里。
+如果是为了测试，scanme.nmap.org 允许被扫描。但仅允许使用Nmap扫描并禁止测试漏洞或进行DoS攻击。为保证带宽，对该主机的扫描每天不要超过12次。如果这个免费扫描服务滥用，系统将崩溃而且Nmap将报告解析 指定的主机名/IP地址失败：scanme.nmap.org。这些免费扫描要求也适用于scanme2.nmap.org、 scanme3.nmap.org等等，虽然这些主机目前还不存在。
+
+### 选项概要
 
 Usage: nmap \[Scan Type\(s\)\] \[Options\] {target specification}  
 TARGET SPECIFICATION:  
@@ -82,13 +84,9 @@ nmap -v -A scanme.nmap.org
 nmap -v -sP 192.168.0.0/16 10.0.0.0/8  
 nmap -v -iR 10000 -P0 -p 80
 
-## 
-
 ## 实例
 
 下面给出一些实例，简单的、复杂的到深奥的。为更具体，一 些例子使用了实际的IP地址和域名。在这些位置，可以使用_你自己网络_的地址/域名替换。注意，扫描其它网络不一定合法，一些网络管理员不愿看到 未申请过的扫描，会产生报怨。因此，先获得允许是最好的办法。
-
-如果是为了测试，scanme.nmap.org 允许被扫描。但仅允许使用Nmap扫描并禁止测试漏洞或进行DoS攻击。为 保证带宽，对该主机的扫描每天不要超过12次。如果这个免费扫描服务被 滥用，系统将崩溃而且Nmap将报告解析 指定的主机名/IP地址失败：scanme.nmap.org。这些免 费扫描要求也适用于scanme2.nmap.org、 scanme3.nmap.org等等，虽然这些 主机目前还不存在。
 
 **nmap -v scanme.nmap.org**
 
