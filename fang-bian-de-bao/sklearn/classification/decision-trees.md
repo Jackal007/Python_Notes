@@ -1,8 +1,0 @@
-# Decision Trees
-
-### sklearn.tree
-
-
-
-
-

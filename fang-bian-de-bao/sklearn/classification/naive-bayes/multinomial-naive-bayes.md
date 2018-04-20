@@ -1,4 +1,0 @@
-# MultinomialNB
-
-
-

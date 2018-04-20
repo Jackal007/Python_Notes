@@ -1,0 +1,4 @@
+# Bernoulli Naive Bayes
+
+
+

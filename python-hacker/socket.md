@@ -1,38 +1,40 @@
+# socket
+
 [https://gist.github.com/kevinkindom/108ffd675cb9253f8f71](https://gist.github.com/kevinkindom/108ffd675cb9253f8f71)
 
-# Python 网络编程
+## Python 网络编程
 
 Python 提供了两个级别访问的网络服务。：
 
 * 低级别的网络服务支持基本的 Socket，它提供了标准的 BSD Sockets API，可以访问底层操作系统Socket接口的全部方法。
 * 高级别的网络服务模块 SocketServer， 它提供了服务器中心类，可以简化网络服务器的开发。
 
----
-
-## 什么是 Socket?
+### 什么是 Socket?
 
 Socket又称"套接字"，应用程序通常通过"套接字"向网络发出请求或者应答网络请求，使主机间或者一台计算机上的进程间可以通讯。
 
----
-
-## socket\(\)函数
+### socket\(\)函数
 
 Python 中，我们用 socket（）函数来创建套接字，语法格式如下：
 
-```
+```text
 socket.socket([family[, type[, proto]]])
 ```
 
-### 参数
+#### 参数
 
 * family: 套接字家族可以使AF\_UNIX或者AF\_INET
 * type: 套接字类型可以根据是面向连接的还是非连接分为
+
   `SOCK_STREAM`
+
   或
+
   `SOCK_DGRAM`
+
 * protocol: 一般不填默认为0.
 
-### Socket 对象\(内建\)方法
+#### Socket 对象\(内建\)方法
 
 | 函数 | 描述 |
 | :--- | :--- |
@@ -60,11 +62,9 @@ socket.socket([family[, type[, proto]]])
 | s.setblocking\(flag\) | 如果flag为0，则将套接字设为非阻塞模式，否则将套接字设为阻塞模式（默认值）。非阻塞模式下，如果调用recv\(\)没有发现任何数据，或send\(\)调用无法立即发送数据，那么将引起socket.error异常。 |
 | s.makefile\(\) | 创建一个与该套接字相关连的文件 |
 
----
+### 简单实例
 
-## 简单实例
-
-### 服务端
+#### 服务端
 
 我们使用 socket 模块的**socket**函数来创建一个 socket 对象。socket 对象可以通过调用其他函数来设置一个 socket 服务。
 
@@ -74,7 +74,7 @@ socket.socket([family[, type[, proto]]])
 
 完整代码如下：
 
-```
+```text
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 # 文件名：server.py
@@ -94,7 +94,7 @@ while True:
     c.close()                # 关闭连接
 ```
 
-### 客户端
+#### 客户端
 
 接下来我们写一个简单的客户端实例连接到以上创建的服务。端口号为 12345。
 
@@ -102,7 +102,7 @@ while True:
 
 完整代码如下：
 
-```
+```text
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 # 文件名：client.py
@@ -120,26 +120,24 @@ s.close()
 
 现在我们打开两个终端，第一个终端执行 server.py 文件：
 
-```
+```text
 $ python server.py
 ```
 
 第二个终端执行 client.py 文件：
 
-```
+```text
 $ python client.py 
 欢迎访问菜鸟教程！
 ```
 
 这是我们再打开第一个终端，就会看到有以下信息输出：
 
-```
+```text
 连接地址：('192.168.0.118',62461)
 ```
 
----
-
-## Python Internet 模块
+### Python Internet 模块
 
 以下列出了 Python 网络编程的一些重要模块：
 
