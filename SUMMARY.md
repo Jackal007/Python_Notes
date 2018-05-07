@@ -9,6 +9,7 @@
     * [\_\_str\_\_和\_\_repr](basic-syntax/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](basic-syntax/te-shu-fang-fa/__len__.md)
   * [temp](basic-syntax/temp.md)
+  * [注解 Decorator](basic-syntax/zhu-jie-decorator.md)
 * [Standard Modules](standard-modules/README.md)
   * [os](standard-modules/os.md)
   * [subprocess](standard-modules/subprocess.md)
@@ -244,5 +245,6 @@
   * [PyDev](debug/pydev.md)
   * [日志功能](debug/ri-zhi-gong-neng.md)
 * inside Packages
+  * re
 * Python APP
 
