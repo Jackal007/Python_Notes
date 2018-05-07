@@ -8,6 +8,7 @@
   * [特殊方法](basic-syntax/te-shu-fang-fa/README.md)
     * [\_\_str\_\_和\_\_repr](basic-syntax/te-shu-fang-fa/str-he-repr.md)
     * [\_\_len\_\_](basic-syntax/te-shu-fang-fa/__len__.md)
+  * [temp](basic-syntax/temp.md)
 * [Standard Modules](standard-modules/README.md)
   * [os](standard-modules/os.md)
   * [subprocess](standard-modules/subprocess.md)
