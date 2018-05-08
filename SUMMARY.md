@@ -237,9 +237,11 @@
   * [pytube下载视频](other-packages/pytube-xia-zai-shi-pin.md)
   * SQLite
   * [optparse 处理脚本的选项](other-packages/optparse-chu-li-jiao-ben-de-xuan-xiang.md)
-  * ItChat
-    * [给文件传输助手发一条信息](other-packages/itchat/gei-wen-jian-chuan-shu-zhu-shou-fa-yi-tiao-xin-xi.md)
-    * [Untitled](other-packages/itchat/untitled.md)
+  * 处理微信的
+    * ItChat
+      * [给文件传输助手发一条信息](other-packages/chu-li-wei-xin-de/itchat/gei-wen-jian-chuan-shu-zhu-shou-fa-yi-tiao-xin-xi.md)
+      * [Untitled](other-packages/chu-li-wei-xin-de/itchat/untitled.md)
+    * wxpy
 * [Debug](debug/README.md)
   * [PDB](debug/pdb.md)
   * [PyDev](debug/pydev.md)
