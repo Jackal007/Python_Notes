@@ -44,7 +44,6 @@
   * [规范WSGI](python-web/gui-fan-wsgi.md)
   * flask
 * Python BigData
-  * 5
   * [sklearn](python-bigdata/sklearn/README.md)
     * [Preprocessing预处理](python-bigdata/sklearn/preprocessing-yu-chu-li/README.md)
       * [MinMaxScaler](python-bigdata/sklearn/preprocessing-yu-chu-li/minmaxscaler/README.md)
@@ -242,6 +241,7 @@
       * [给文件传输助手发一条信息](other-packages/chu-li-wei-xin-de/itchat/gei-wen-jian-chuan-shu-zhu-shou-fa-yi-tiao-xin-xi.md)
       * [Untitled](other-packages/chu-li-wei-xin-de/itchat/untitled.md)
     * wxpy
+    * [prettytable](other-packages/chu-li-wei-xin-de/itchat/prettytable.md)
 * [Debug](debug/README.md)
   * [PDB](debug/pdb.md)
   * [PyDev](debug/pydev.md)
